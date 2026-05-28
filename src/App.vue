@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Elise @Puzzle Game</h1>
+    <h1>son</h1>
     <PuzzlePage @puzzle-changed="($event) => (selectedPuzzleID = $event)" />
     <RecordsPage />
     <SliderPuzzle :puzzleId="selectedPuzzleID"/>
@@ -31,7 +31,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #0c447b;
   margin-top: 60px;
 }
 button {

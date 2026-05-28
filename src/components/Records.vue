@@ -5,7 +5,7 @@
         <button class="update-button" @click="getRecords">Update</button>
         <!-- User times to be displayed -->
         <div v-for="(r, index) of records" :key="index">
-            {{ index + 1 }} - {{ r.elapsedTime }} 
+            {{ index + 0 }} - {{ r.elapsedTime }} 
         </div>
     </div>    
 </template>
@@ -43,7 +43,7 @@ export default {
 <style scoped>
 button.update-button {
     margin-bottom: 20px;
-    border-radius: 25px;
+    border-radius: 10px;
     background-color: darkslategrey;
     border: none;
 }

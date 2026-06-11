@@ -27,17 +27,17 @@
         puzzles: [
           {
             id: "cut-easy",
-            image: "easy.jpg",
+            image: "rssb.jpg",
             title: "Easy",
           },
           {
             id: "cut-medium",
-            image: "medium.jpg",
+            image: "mamba.jpg",
             title: "Medium",
           },
           {
             id: "cut-hard",
-            image: "hard.jpg",
+            image: "art.jpg",
             title: "Hard",
           },
         ],
